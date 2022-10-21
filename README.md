@@ -80,3 +80,82 @@ Benefit:
 *Packer is used to create VM images.*
 
 *Terraform can provision a VM using the image generated from Packer.*
+
+
+## OOP (Object-Oriented Programming):
+
+*A programming paradigm in which objects can be created from classes*
+
+```
+Benefit:
+        Objects allow code to be grouped into objects which contain related properties and methods
+```
+
+## Encapsulation:
+
+*1st pillar of OOP. Grouping of related properties/methods within objects.*
+*Can prevent code outside of the object from being able to access/use private properties/methods (visibility)*
+
+```
+Benefit:
+        If a property/method is private, bugs related to their usage will be restricted to within the class/object itself.
+```
+
+## Abstraction:
+
+*2nd pillar of OOP. A means of providing a less-complex usage of a class via simplified methods.*\
+```
+Benefit:
+        The inner workings of a class can be hidden from the user.
+        The user can simply call interface methods on the class that handle the complex logic behind the scenes for them.
+```
+
+## Inheritance:
+
+*3rd pillar of OOP. Inheritance allows you to make classes that derive from parent classes, retaining the parent's functionality*
+```
+Benefit:
+        Allows you to create a hierarchy of classes which share functionality, while allowing specialization in child classes.
+        Reduces code duplication.
+```
+
+## Polymorphism:
+
+*4th pillar of OOP. The changing of inherited properties/methods in child classes*
+
+```
+Benefit:
+        By allowing the child class to override parent class properties/methods, the child class can be used in the same way as the parent class,
+        while still providing a different output/behavior.
+
+        The names of the properties/methods can remain the same, so no additional if/else checks are needed to know that a property/method exists on the object.
+```
+
+## Exception handling:
+
+*Allows you to attempt to use a function, and respond if an error occurs instead of crashing the program*
+
+```
+Usage:
+        try, catch
+        You can throw custom errors/exceptions when you want the program to crash immediately so you can debug unexpected behavior quickly
+```
+
+
+## Node:
+
+*Runtime environment for Javascript*
+
+```
+Benefit:
+        Allows you to install packages using NPM (Node package manager), as well as run JS code outside of a browser.
+```
+
+## Express:
+
+*A framework for creating APIs*
+
+```
+Benefit:
+        Provides some built-in syntax for creating HTTP requests (POST/GET/PATCH/DELETE)
+```
